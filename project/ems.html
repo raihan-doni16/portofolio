@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="icon" type="image/png" href="../asset/logo.png" />
+    <title>Raihan Doni</title>
+    <link
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <nav class="navbar d-flex justify-content-between align-items-center">
+      <a
+        class="navbar-brand animate__animated animate__backInDown"
+        href="../index.html"
+      >
+        <img
+          src="../asset/logo.png"
+          width="100px"
+          height="100px"
+          class="logo"
+        />
+      </a>
+      <div class="navbar-toggler" id="navbar-toggler">
+        <img
+          class="animate__animated animate__backInDown"
+          src="data:image/png;base64,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"
+          alt="hamburger"
+        />
+      </div>
+    </nav>
+    <div
+      class="navbar-menu animate__animated animate__fadeInDown"
+      id="navbar-menu"
+    >
+      <a href="../index.html"> 1. Home</a>
+      <a href="../project.html">2. Work</a>
+      <a href="../about.html">3. About</a>
+    </div>
+    <div class="container-text detail-text">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <img
+              class="detail-logo mb-3 animate__animated animate__fadeInDown"
+              src="../asset/ems.png"
+              alt="EMS Logo"
+            />
+            <h1 class="mt-5 fw-bold animate__animated animate__fadeInDown">
+              Environment Management System
+            </h1>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="underline animate__animated animate__fadeInDown"></div>
+            <div class="row mt-3">
+              <div class="col-md-3 col-6">
+                <h5 class="fw-bold">Year</h5>
+                <h5 class="fw-bold">Category</h5>
+                <h5 class="fw-bold tc">Tech Stack</h5>
+              </div>
+              <div class="col-md-4 col-6">
+                <h5 class="fw-bold">2024</h5>
+                <h5 class="fw-bold">Content Management System</h5>
+                <h5 class="fw-bold">HTML, CSS, JavaScript, Laravel, AJAX</h5>
+              </div>
+              <div class="col-md-5 mt-3 mt-md-0">
+                <p>
+                  The Environment Management System (EMS) website is a platform
+                  designed to support the company's commitment to environmental
+                  management. With a professional and minimalist design, this
+                  website aims to convey an essential message about balancing
+                  business sustainability and environmental preservation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-12">
+            <img
+              class="detail-foto img-fluid mb-3"
+              src="../asset/ems1.png"
+              alt="EMS Screenshot 1"
+            />
+          </div>
+          <div class="col-12">
+            <img
+              class="detail-foto img-fluid mb-3"
+              src="../asset/ems2.png"
+              alt="EMS Screenshot 2"
+            />
+          </div>
+          <div class="col-12">
+            <img
+              class="detail-foto img-fluid mb-3"
+              src="../asset/ems3.png"
+              alt="EMS Screenshot 3"
+            />
+          </div>
+          <div class="col-12">
+            <img
+              class="detail-foto img-fluid mb-3"
+              src="../asset/ems4.png"
+              alt="EMS Screenshot 4"
+            />
+          </div>
+          <div class="col-12">
+            <img
+              class="detail-foto img-fluid mb-3"
+              src="../asset/ems5.png"
+              alt="EMS Screenshot 5"
+            />
+          </div>
+          <div class="col-12">
+            <img
+              class="detail-foto img-fluid mb-3"
+              src="../asset/ems6.png"
+              alt="EMS Screenshot 6"
+            />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="underline"></div>
+            <div class="d-flex detail-foot justify-content-between align-items-center">
+              <a href="../project/fish-game.html" class="btn-custom fs-4">
+                Next Project
+              </a>
+
+              <h5 class="fs-4 text-light detail-footer">Fish Game</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tag-container">
+      <a href="https://www.fiverr.com/s/R7Qbw42">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="30"
+          height="30"
+          viewBox="0,0,256,256"
+        >
+          <g
+            fill="#ffffff"
+            fill-rule="nonzero"
+            stroke="none"
+            stroke-width="1"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="10"
+            stroke-dasharray=""
+            stroke-dashoffset="0"
+            font-family="none"
+            font-weight="none"
+            font-size="none"
+            text-anchor="none"
+            style="mix-blend-mode: normal"
+          >
+            <g transform="scale(5.12,5.12)">
+              <path
+                d="M25,2c-12.69071,0 -23,10.3093 -23,23c0,12.6907 10.30929,23 23,23c12.69071,0 23,-10.3093 23,-23c0,-12.6907 -10.30929,-23 -23,-23zM25,4c11.60983,0 21,9.39017 21,21c0,11.60983 -9.39017,21 -21,21c-11.60983,0 -21,-9.39017 -21,-21c0,-11.60982 9.39017,-21 21,-21zM26.5,11c-4.921,0 -8.09089,3.037 -8.46289,8h-4.03711v6h4v11h6v-11h4v11h6v-17h-9.93359c0.294,-1.999 1.51259,-2 2.43359,-2h2.53125v-6z"
+              ></path>
+            </g>
+          </g>
+        </svg>
+        <span class="tag-text">Order Me On Fiver</span>
+      </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/framer-motion/7.0.2/framer-motion.umd.min.js"></script>
+    <script src="script.js" defer></script>
+    <script>
+      const toggler = document.getElementById("navbar-toggler");
+      const menu = document.getElementById("navbar-menu");
+
+      toggler.addEventListener("click", () => {
+        menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+      });
+    </script>
+  </body>
+</html>
