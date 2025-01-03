@@ -82,11 +82,7 @@ html {
   letter-spacing: 0.2em;
   color: #00796b;
 }
-@media (max-width: 768px) {
-  .navbar-toggler {
-    display: flex;
-  }
-}
+
 .navbar-brand {
   font-weight: bold;
   color: white;
@@ -483,129 +479,6 @@ canvas {
   text-align: center;
 }
 
-/* Media query untuk tablet */
-@media (max-width: 1024px) {
-  .hero-text h1 {
-    font-size: 3rem;
-  }
-
-  .hero-text p {
-    font-size: 1rem;
-  }
-
-  .navbar-menu a {
-    font-size: 1.5rem;
-    padding: 10px;
-  }
-
-  .profile-section h1 {
-    font-size: 2rem;
-  }
-
-  .profile-section p {
-    font-size: 0.9rem;
-  }
-
-  .btn-custom {
-    font-size: 14px;
-    padding: 4px 8px;
-  }
-
-  .project-image {
-    height: 300px;
-  }
-}
-
-/* Media query untuk mobile */
-@media (max-width: 768px) {
-  .hero-text h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero-text p {
-    font-size: 0.9rem;
-  }
-
-  .navbar-brand {
-    font-size: 1.2rem;
-    margin-left: 10px;
-  }
-
-  .navbar-menu a {
-    font-size: 1.2rem;
-    padding: 8px;
-  }
-
-  .profile-section h1 {
-    font-size: 1.8rem;
-  }
-
-  .profile-section p {
-    font-size: 0.8rem;
-  }
-
-  .btn-custom {
-    font-size: 12px;
-    padding: 3px 6px;
-  }
-
-  .project-image {
-    height: 250px;
-  }
-
-  .box {
-    width: 150px;
-    height: 150px;
-  }
-  .detail-foot a {
-    font-size: 12px;
-  }
-  .tc {
-    margin-top: 60px;
-  }
-  .tc1 {
-    margin-top: 30px;
-  }
-}
-@media (max-width: 767px) {
-  .image-container {
-    display: none;
-    text-align: center;
-  }
-
-  .project-list {
-    padding: 0;
-    list-style: none;
-  }
-
-  .project-item {
-    margin-bottom: 20px;
-  }
-
-  .category {
-    font-size: 0.85rem;
-    color: #666;
-  }
-}
-
-/* Media Query for Tablets */
-@media (min-width: 768px) and (max-width: 991px) {
-  .image-container img {
-    max-height: 300px;
-    object-fit: cover;
-  }
-
-  .project-list {
-    margin-top: 20px;
-  }
-  .tc1 {
-    margin-top: 30px;
-  }
-  .tc {
-    margin-top: 60px;
-  }
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 * {
@@ -753,31 +626,6 @@ header h2 {
   background: #00796b;
 }
 
-@media (max-width: 768px) {
-  .chatbot {
-    width: 200px;
-  }
-  .chatbot .chatbox {
-    max-height: 150px;
-  }
-}
-
-@media (max-width: 480px) {
-  .chatbot {
-    width: 200px;
-    bottom: 40px;
-  }
-  .chatbot .chatbox {
-    max-height: 150px;
-  }
-  .chatbot-toggler {
-    height: 40px;
-    /width: 4ppx;
-    bottom: 10px;
-    left: 10px;
-  }
-}
-
 .chatbox::-webkit-scrollbar {
   width: 5px;
 }
@@ -802,8 +650,160 @@ header h2 {
   scrollbar-color: #00796b #f0f0f0;
 }
 
-/* Media Query untuk Perangkat Kecil */
+.detail-text {
+  padding: 15px;
+}
+
+.detail-logo {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 480px) {
+  .chatbot {
+    width: 200px;
+    bottom: 40px;
+  }
+  .chatbot .chatbox {
+    max-height: 150px;
+  }
+  .chatbot-toggler {
+    height: 40px;
+    /width: 4ppx;
+    bottom: 10px;
+    left: 10px;
+  }
+}
+
+/* Media query untuk tablet */
+@media (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .navbar-menu a {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .profile-section h1 {
+    font-size: 2rem;
+  }
+
+  .profile-section p {
+    font-size: 0.9rem;
+  }
+
+  .btn-custom {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  .project-image {
+    height: 300px;
+  }
+}
+
+/* Media query untuk mobile */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  .navbar-menu a {
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+
+  .profile-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .profile-section p {
+    font-size: 0.8rem;
+  }
+
+  .btn-custom {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+
+  .project-image {
+    height: 250px;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+  }
+  .detail-foot a {
+    font-size: 12px;
+  }
+  .tc {
+    margin-top: 60px;
+  }
+  .tc1 {
+    margin-top: 30px;
+  }
+  .chatbot {
+    width: 200px;
+  }
+  .chatbot .chatbox {
+    max-height: 150px;
+  }
+  .navbar-toggler {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .fs-4 {
+    font-size: 15px !important; /* Atur ukuran teks sesuai kebutuhan */
+  }
+}
 @media (max-width: 767px) {
+  .container-text .detail-logo {
+    margin-top: 130px;
+  }
+  .detail-foot h5 {
+    font-size: 12px;
+  }
+  .image-container {
+    display: none;
+    text-align: center;
+  }
+
+  .project-list {
+    padding: 0;
+    list-style: none;
+  }
+
+  .project-item {
+    margin-bottom: 20px;
+  }
+
+  .category {
+    font-size: 0.85rem;
+    color: #666;
+  }
+  .detail-logo {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
   .hero-section {
     padding: 20px;
   }
@@ -822,8 +822,22 @@ header h2 {
   }
 }
 
-/* Media Query untuk Tablet */
+/* Media Query for Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
+  .image-container img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .project-list {
+    margin-top: 20px;
+  }
+  .tc1 {
+    margin-top: 30px;
+  }
+  .tc {
+    margin-top: 60px;
+  }
   .hero-text h1 {
     font-size: 2.2rem;
   }
@@ -835,24 +849,5 @@ header h2 {
   .btn-custom {
     padding: 9px 18px;
     font-size: 1rem;
-  }
-}
-
-.detail-text {
-  padding: 15px;
-}
-
-.detail-logo {
-  max-width: 100%;
-  height: auto;
-}
-
-@media (max-width: 767px) {
-  .detail-logo {
-    margin-top: 100px;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
   }
 }
